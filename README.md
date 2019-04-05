@@ -1,3 +1,7 @@
+### About Me
+My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying Computer Science. 
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ErikaSudderth/erikasudderth.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
