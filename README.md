@@ -15,6 +15,7 @@ Hello
     body {
       background-image: (url)"Kayak.jpeg"
     }
+  </style>
   <body>
     <h1> About Me </h1>
     <hr/>
