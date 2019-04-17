@@ -11,12 +11,7 @@ Hello
 
 
 <html>
-  <style>
-    body {
-      background-image: (url)"Kayak.jpeg"
-    }
-  </style>
-  <body>
+  <body background="Kayak.jpeg">
     <h1> About Me </h1>
     <hr/>
     <p> My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. 
