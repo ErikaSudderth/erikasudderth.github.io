@@ -1,10 +1,10 @@
-### About Me
+# About Me
 My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying Computer Science. 
 
 
 [Resume](SchoolWebsiteResumePDF.pdf)
 
-### Projects
+# Projects
 
 Hello
 
