@@ -11,6 +11,10 @@ Hello
 
 
 <html>
+  <style>
+    body {
+      background-image: (url)"Kayak.jpeg"
+    }
   <body>
     <h1> About Me </h1>
     <hr/>
