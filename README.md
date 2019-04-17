@@ -47,5 +47,11 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 <html>
+  <body>
+    <h1> About Me </h1>
+    <p> My name is Erika Sudderth, and I am currently a second degree student at the       University of North Carolina at Greensboro studying Computer Science. 
+/p>
+    <hr/>
+  </body>
   <hr />
 </html>
