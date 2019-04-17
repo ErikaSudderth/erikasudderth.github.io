@@ -50,7 +50,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   <body>
     <h1> About Me </h1>
     <p> My name is Erika Sudderth, and I am currently a second degree student at the       University of North Carolina at Greensboro studying Computer Science. 
-/p>
+</p>
     <hr/>
   </body>
   <hr />
