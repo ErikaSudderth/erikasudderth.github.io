@@ -11,7 +11,8 @@ Hello
 
 
 <html>
-  <body background="Kayak.jpeg">
+  <body>
+    <img src = 'Kayak.jpeg' style = 'position:fixed; top: 0px; left:0px; width:100%; height: 100%; z-index: -1;'>
     <h1> About Me </h1>
     <hr/>
     <p> My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. 
