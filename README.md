@@ -20,7 +20,7 @@
     <hr/>
     <h1> <font color="white"> About Me </font> </h1>
     <p> <font color="white" size="5"> My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. </font>
-    <a href="/Projects.html"> </a>
+    <a href="/Projects.html"> Projects </a>
 </p>
   </body>
   
