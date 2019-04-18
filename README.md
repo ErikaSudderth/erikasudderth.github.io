@@ -1,9 +1,9 @@
 <html>
-  <div class = "buttons" style = "width: 50%">
-    <button style = "width: 12.5%"> <font color = "white" size="2"> About Me </font> </button>
-    <button style = "width: 12.5%"> <font color = "white" size="2"> Resume </font> </button>
-    <button style = "width: 12.5%"> <font color = "white" size="2"> Projects </font> </button>
-    <button style = "width: 12.5%"> <font color = "white" size="2"> Contact Information </font> </button>
+  <div class = "buttons" style = "width: 100%">
+    <button style = "width: 20%"> <font color = "white" size="2"> About Me </font> </button>
+    <button style = "width: 20%"> <font color = "white" size="2"> Resume </font> </button>
+    <button style = "width: 20%"> <font color = "white" size="2"> Projects </font> </button>
+    <button style = "width: 20%"> <font color = "white" size="2"> Contact Information </font> </button>
   </div>
 
   <body>
