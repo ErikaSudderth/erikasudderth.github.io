@@ -15,6 +15,7 @@
 	   float: middle;
 	   padding: 10px 4px;
 	   border: 1px #40E0D0;
+	}
     </style>
 
     <h1> <font color="white"> About Me </font> </h1>
