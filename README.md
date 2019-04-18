@@ -1,5 +1,5 @@
 <html>
-  <div class="btn-group">
+  <div class="buttons">
     <button> Resume </button>
     <button> Projects </button>
     <button> Contact Information </button>
