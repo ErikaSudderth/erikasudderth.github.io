@@ -1,8 +1,8 @@
 <html>
 
-<div class = "buttons" style = "width: 100%">   
+<div class = "buttons" >   
 
-	<a href="README.md">
+	<a href="https://erikasudderth.github.io/">
 		<button style = "width = 20%"> <font color = "white" size="2"> About Me </font> </button>
 	</a>
 
@@ -28,8 +28,9 @@
 		.buttons button {
 	   		background-color: #008080;
 	   		float: middle;
-	   		padding: 10px 4px;
+	   		padding: 10px 60px;
 	   		border: 1px #40E0D0;
+			width: 24%;	
 	}
     	</style>
     	<hr/>
