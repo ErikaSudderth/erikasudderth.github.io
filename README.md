@@ -3,6 +3,7 @@
     <button> Resume </button>
     <button> Projects </button>
     <button> Contact Information </button>
+  </div>
 </html>
 
 
