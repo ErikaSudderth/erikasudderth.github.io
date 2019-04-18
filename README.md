@@ -1,3 +1,11 @@
+<html>
+  <div class="btn-group">
+    <button> Resume </button>
+    <button> Projects </button>
+    <button> Contact Information </button>
+</html>
+
+
 # About Me
 My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying Computer Science. 
 
