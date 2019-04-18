@@ -1,8 +1,8 @@
 <html>
-  <div class="buttons">
-    <button> Resume </button>
-    <button> Projects </button>
-    <button> Contact Information </button>
+  <div class = "buttons" style = "width: 100%">>
+    <button style = "width: 33.3%"> Resume </button>
+    <button style = "width: 33.3%"> Projects </button>
+    <button style = "width: 33.3%"> Contact Information </button>
   </div>
 </html>
 
