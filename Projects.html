@@ -1,0 +1,284 @@
+<html>
+<div class = "buttons">   
+
+	<a href="https://erikasudderth.github.io/">
+		<button style = "width = 20%"> <font color = "white" size="2"> About Me </font> </button>
+	</a>
+
+	<a href="SchoolWebsiteResumePDF.pdf">
+		<button style = "width = 20%"> <font color = "white" size="2"> Resume </font> </button>
+	</a> 
+   	
+	<a href="Projects.html">
+		<button style = "width = 20%"> <font color = "white" size="2"> Projects </font> </button>
+	</a>
+
+	<a href="ContactInformation.html">
+		<button style = "width = 20%"> <font color = "white" size="2"> Contact Information </font> </button>
+	</a>
+
+  </div>
+
+<body>
+
+    	<img src = 'bird-s-eye-view-black-and-white-colors-450055.jpg' style = 'position:fixed; top: 0px; left:0px; width:100%; height: 100%; z-index: -1;'>
+
+    	<style>
+		.buttons button {
+	   		background-color: #008080;
+	   		float: middle;
+	   		padding: 10px 60px;
+	   		border: 1px #40E0D0;
+			width: 24%;
+		}
+		h1 {
+			text-align:center;
+		}
+		p {
+			text-align:center;
+		}    	
+	</style>
+	<h1>
+		<font color = white> Projects </font>
+	</h1>
+	<p>
+		<font color = white> 
+		<hr>
+		Project 1: Converting Integers to Binary Recursively
+		<pre>
+
+import java.util.Scanner;
+
+public class Question4 {
+
+    /**
+     * Main method that provides examples of passing integers into the toBinary
+     * method and printing out the result. Also allows user to enter their own
+     * number to check the method.
+     */
+    public static void main(String[] args) {
+        int example1 = 22;
+        System.out.println(example1 + " in binary is " + toBinary(example1));
+        int example2 = 10;
+        System.out.println(example2 + " in binary is " + toBinary(example2));
+        int example3 = 45;
+        System.out.println(example3 + " in binary is " + toBinary(example3));
+        int example4 = 101;
+        System.out.println(example4 + " in binary is " + toBinary(example4));
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number to convert it to binary: ");
+        int example5 = input.nextInt();
+        System.out.println(example5 + " in binary is " + toBinary(example5));
+        
+    }
+    
+    /**
+     * toBinary method provides the base cases of 0 and 1. If the integer passed 
+     * in is one of these base cases, the method returns the answer and is done.
+     * Other wise the method recursively calls toBinary with the number divided 
+     * by two with integer division passed in. This value is added to the front
+     * of the number mod 2 in order to work from right to left.
+     */
+    public static String toBinary(int number) {
+        if (number == 0) {
+            return "0";
+        }
+        else if (number == 1) {
+            return "1";
+        }
+        else {
+            return (toBinary(number/2) + number % 2);
+        }
+    }
+    
+}		</pre>
+		<hr>
+		Project 2: Reversing Integers Recursively
+		<pre>
+
+import java.util.Scanner;
+
+public class Question3 {
+
+    /**
+     * Main method which provides examples of integers being passed to the 
+     * reverseInteger method and printing out the result. Allows user to enter
+     * an integer of their own to test the program.
+     */
+    public static void main(String[] args) {
+        int example1 = 493;
+        int example2 = 346;
+        int example3 = 1234;
+        int example4 = 12;
+        
+
+        System.out.println("The reverse of " + example1 + " is " + 
+                reverseInteger(example1));
+        System.out.println("The reverse of " + example2 + " is " + 
+                reverseInteger(example2));
+        System.out.println("The reverse of " + example3 + " is " + 
+                reverseInteger(example3));
+        System.out.println("The reverse of " + example4 + " is " + 
+                reverseInteger(example4));
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter an integer to be reversed: ");
+        int example5 = input.nextInt();
+        System.out.println("The reverse of " + example5 + " is " + 
+                reverseInteger(example5));
+    }
+    
+    /**
+     * reverseInteger method that includes a while loop to determine the length
+     * of the integer passed into the method. In the recursive part of the 
+     * method, an if/else statement removes the last number in the integer and
+     * multiples it by a power of ten in order to make sure the magnitude is in
+     * the reversed position for the returns integer. The reverseInteger method
+     * is then called recursively to repeat the process until there are no more
+     * digits in the integer.
+     */
+    public static int reverseInteger(int integer) {
+        int counter = 0;
+        int x = integer;
+        while (x > 0) {
+            counter++;
+            x = x/10;
+        }
+        if(integer > 0) {
+            return (integer % 10) * ((int)Math.pow(10, counter - 1))  
+                    + reverseInteger(integer/10); 
+        }
+        else {
+            return 0;
+        }
+        
+    }
+    
+}		
+		</pre>
+
+		<hr>
+		Project 3: Reversing Strings Recursively
+		<pre>
+
+import java.util.Scanner;
+
+
+public class Question5 {
+
+    /**
+     * Main method that provides examples of string to be reversed and passes
+     * them into the reverse function. 
+     */
+    public static void main(String[] args) {
+        String example1 = "Hello who are you";
+        System.out.println("The reverse of " + example1 + " is: " + reverse(example1));
+        String example2 = "Erika";
+        System.out.println("The reverse of " + example2 + " is: " + reverse(example2));
+        String example3 = "Who's that?";
+        System.out.println("The reverse of " + example3 + " is: " + reverse(example3));
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a string to be reversed: ");
+        String example4 = input.nextLine();
+        System.out.println("The reverse of " + example4 + " is: " + 
+                reverse(example4));
+        
+    }
+    /**
+     * reverse method that takes in a string as an argument. This string is 
+     * converted to a stringBuffer and passed to the recursiveRoutine method.
+     */
+    public static String reverse(String str) {
+        StringBuffer stringBuffer = new StringBuffer(str);
+        return recursiveRoutine(stringBuffer);
+    }
+    
+    /**recursiveRoutine that takes in a StringBuffer, then it checks if 
+     * stringBuffer is empty or not. If it is, the method returns blank space. 
+     * If the stringBuffer is not empty, it returns the last character in the 
+     * stringBuffer to the left, then recursively calls the reverse method 
+     * again with a substring excluding the last letter of the stringBuffer. 
+     * This is done until the stringBuffer is empty and returns the reversed 
+     * string.
+     */
+    public static String recursiveRoutine(StringBuffer stringBuffer) {
+        if(stringBuffer.length() > 0 ) {
+           return stringBuffer.charAt(stringBuffer.length() - 1) + 
+                   reverse(stringBuffer.substring(0, stringBuffer.length() - 1));
+        }
+        else {
+            return "";
+        }
+        
+    }
+    
+}
+		</pre>
+		<hr>
+		Project 4: Creating a Dynamic Array
+		<pre>
+
+import java.util.Scanner;
+
+public class A2Q6 {
+    /**
+     * Main method that creates an array by calling getStrings and prints out
+     * all of the String values in that array. 
+     */
+    public static void main(String[] args) {
+        String[] array = getStrings();
+        for(String string: array) {
+            System.out.println(string);
+        }
+    }
+    /**
+     * Method that creates a String array starting with 1 element and allows an
+     * unlimited amount of values to be added to the end of the array through 
+     * user input.
+     */
+    public static String[] getStrings() {
+        Scanner input = new Scanner(System.in);
+        
+        int counter = 0;
+        String[] array = new String[1];
+        
+        System.out.println("Enter the first String for the array or an empty "
+                + "String to exit: ");
+        String x = input.nextLine();
+        array[counter] = x;
+        
+        while (!x.isEmpty()) {
+           System.out.println("Enter a String to add to the array or an empty "
+                   + "String to exit: ");
+           x = input.nextLine();
+           array = resizeArray(array);
+           array[counter + 1] = x;
+           counter++;
+        }
+        
+        return array;
+    }
+    /**
+     * Method that takes in an array and creates a new array with one more 
+     * element than the old array. Sets the new array elements to the old
+     * array elements in the same position, leaving the last element null.
+     */
+    public static String[] resizeArray(String[] oldArray){ 
+        String[] newArray = new String[oldArray.length + 1];
+        
+        for(int counter = 0; counter < oldArray.length; counter++) {
+            newArray[counter] = oldArray[counter];
+        }
+        
+        return newArray;
+    }    
+}
+		</pre>
+		<hr>
+		 </font>
+	</p>
+    			
+	</body>
+</html>
