@@ -17,12 +17,14 @@
 	   border: 1px #40E0D0;
 	}
     </style>
-
-    <h1> <font color="white"> About Me </font> </h1>
     <hr/>
+    <h1> <font color="white"> About Me </font> </h1>
     <p> <font color="white" size="5"> My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. </font>
+    <a href="/Projects.html"> </a>
 </p>
-</body>
+  </body>
   
 </html>
 
+
+  
