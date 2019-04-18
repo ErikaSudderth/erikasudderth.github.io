@@ -1,9 +1,9 @@
 <html>
-  <div class = "buttons" style = "width: 100%">>
-    <button style = "width: 25%"> <font color = "white" size="3"> About Me </font> </button>
-    <button style = "width: 25%"> <font color = "white" size="3"> Resume </font> </button>
-    <button style = "width: 25%"> <font color = "white" size="3"> Projects </font> </button>
-    <button style = "width: 23%"> <font color = "white" size="3"> Contact Information </font> </button>
+  <div class = "buttons" style = "width: 50%">
+    <button style = "width: 12.5%"> <font color = "white" size="2"> About Me </font> </button>
+    <button style = "width: 12.5%"> <font color = "white" size="2"> Resume </font> </button>
+    <button style = "width: 12.5%"> <font color = "white" size="2"> Projects </font> </button>
+    <button style = "width: 12.5%"> <font color = "white" size="2"> Contact Information </font> </button>
   </div>
 
   <body>
@@ -22,5 +22,7 @@
     <hr/>
     <p> <font color="white" size="5"> My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. </font>
 </p>
- </body>
+</body>
+  
 </html>
+
