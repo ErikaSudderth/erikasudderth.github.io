@@ -21,8 +21,8 @@
   </div>
 
 <body>
-
-    	<img src = 'Kayak.jpeg' style = 'position:fixed; top: 0px; left:0px; width:100%; height: 100%; z-index: -1;'>
+	<img src = 'bird-s-eye-view-black-and-white-colors-450055.jpg' style = 'position:fixed; top: 0px; left:0px; width:100%; height: 100%; z-index: -1;'>    	
+	
 
     	<style>
 		.buttons button {
@@ -42,7 +42,8 @@
 </font>
     	
 	</p>
-
+	
+	<img src = 'Kayak.jpeg' style = 'position:fixed; top: 0px; left:0px; width:50%; height: 50%; z-index: 0;'>
   </body>
   
 </html>
