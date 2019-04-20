@@ -43,7 +43,7 @@
     	
 	</p>
 	
-	
+  <img src = 'Kayak.jpeg' style = 'z-index: 0;'>	
   </body>
   
 </html>
