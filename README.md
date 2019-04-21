@@ -38,12 +38,15 @@
 
     	<p> 
 		<font color="white" size="5"> 
-			My name is Erika Sudderth, and I am currently a second degree student at the University of North Carolina at Greensboro studying  Computer Science. 
+			My name is Erika Sudderth and I am currently a second degree student studying Computer Science at the University of North Carolina at Greensboro. I am interested in internships directly involving programming to improve my problem-solving skills and my knowledge of the computer science field.
+
+			In my free time, I enjoy reading, kayaking, playing with my dog, and spending time with family and friends.
 </font>
-    	
+ 
 	</p>
 	
-  <img src = 'Kayak.jpeg' style = 'z-index: 0;'>	
+  <img src = 'Kayak.jpeg' style = 'z-index: 0; width:50%; height:50%'>
+  <img src = 'Kayak.jpeg' style = 'z-index: 0; width:50%; height:50%'>  
   </body>
   
 </html>
