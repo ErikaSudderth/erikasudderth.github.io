@@ -45,8 +45,9 @@
  
 	</p>
 	
-  <img src = 'Kayak.jpeg' style = 'z-index: 0; width:50%; height:50%'>
-  <img src = 'Kayak.jpeg' style = 'z-index: 0; width:50%; height:50%'>  
+  <img src = 'Kayak.jpeg' style = 'z-index: 0'>
+  <br>
+  <img src = 'Dog.jpeg' style = 'z-index: 0'>  
   </body>
   
 </html>
